@@ -1,0 +1,124 @@
+<mvc:View controllerName="generated.app.view.1445931102608_S5" xmlns:core="sap.ui.core" xmlns:layout="sap.ui.layout" xmlns:m="sap.m"
+	xmlns:mvc="sap.ui.core.mvc" xmlns:uxap="sap.uxap">
+	<uxap:ObjectPageLayout height="100%" id="sap_uxap_ObjectPageLayout_0" showAnchorBar="true" showAnchorBarPopover="true"
+		showHeaderContent="true" showTitleInHeaderContent="true" subSectionLayout="TitleOnTop" upperCaseAnchorBar="true" useIconTabBar="false"
+		visible="true">
+		<uxap:headerTitle/>
+		<uxap:headerContent>
+			<m:VBox alignItems="Stretch" direction="Column" displayInline="false" fitContainer="false" id="sap_m_VBoxLinks_3" justifyContent="Start"
+				renderType="Div" visible="true" width="auto">
+				<m:items>
+					<m:HBox alignItems="Stretch" direction="Row" displayInline="false" fitContainer="false" height="48px" id="np-sap_m_HBox-1445950408574-14Q"
+						justifyContent="Start" renderType="Div" visible="true">
+						<m:items>
+							<layout:HorizontalLayout id="np-sap_ui_layout_HorizontalLayout-1445951025675-15Y" visible="true">
+								<layout:content>
+									<m:Label design="Bold" id="np-sap_m_Label-1445951025675-15Z" required="false" text="School:" textAlign="Begin" textDirection="Inherit"
+										width="auto"/>
+									<m:TextArea cols="20" height="38px" id="np-sap_m_TextArea-1445952283838-184" maxLength="0" rows="1" wrapping="None"/>
+								</layout:content>
+							</layout:HorizontalLayout>
+							<layout:HorizontalLayout id="np-sap_ui_layout_HorizontalLayout-1445951027280-163" visible="true">
+								<layout:content>
+									<m:Label design="Standard" id="np-sap_m_Label-1445951027280-164" required="false" text="School:" textAlign="Begin" textDirection="Inherit"
+										width="auto"/>
+									<m:Label design="Standard" id="np-sap_m_Label-1445951207679-16A" required="false" text="SAP InnoJam" textAlign="Begin"
+										textDirection="Inherit" width="auto"/>
+								</layout:content>
+							</layout:HorizontalLayout>
+						</m:items>
+						<m:layoutData/>
+					</m:HBox>
+					<m:HBox alignItems="Stretch" direction="Row" displayInline="false" fitContainer="false" height="48px" id="np-sap_m_HBox-1445950419240-152"
+						justifyContent="Start" renderType="Div" visible="true">
+						<m:items>
+							<m:HBox alignItems="Center" direction="Row" displayInline="false" fitContainer="false" height="48px" id="np-sap_m_HBox-1445951352520-16C"
+								justifyContent="Start" renderType="Div" visible="true">
+								<m:items>
+									<m:Label design="Bold" id="np-sap_m_Label-1445951381646-170" required="false" text="Location:" textAlign="Begin" textDirection="Inherit"
+										width="auto"/>
+									<m:TextArea cols="20" height="38px" id="np-sap_m_TextArea-1445952353775-186" maxLength="0" rows="1" wrapping="None"/>
+								</m:items>
+								<m:layoutData/>
+							</m:HBox>
+							<m:HBox alignItems="Center" direction="Row" displayInline="false" fitContainer="false" height="48px" id="np-sap_m_HBox-1445951355753-16O"
+								justifyContent="Start" renderType="Div" visible="true">
+								<m:items>
+									<m:Label design="Bold" id="np-sap_m_Label-1445951491888-174" required="false" text="Location:" textAlign="Begin" textDirection="Inherit"
+										width="auto"/>
+									<m:Label design="Standard" id="np-sap_m_Label-1445951493674-176" required="false" text="Sunnyvale" textAlign="Begin" textDirection="Inherit"
+										width="auto"/>
+								</m:items>
+								<m:layoutData/>
+							</m:HBox>
+						</m:items>
+						<m:layoutData/>
+					</m:HBox>
+					<m:HBox alignItems="Stretch" direction="Row" displayInline="false" fitContainer="false" height="48px" id="np-sap_m_HBox-1445950423375-15E"
+						justifyContent="Start" renderType="Div" visible="true">
+						<m:items>
+							<m:HBox alignItems="Center" direction="Row" displayInline="false" fitContainer="false" height="48px" id="np-sap_m_HBox-1445951644978-178"
+								justifyContent="Start" renderType="Div" visible="true">
+								<m:items>
+									<m:Label design="Bold" id="np-sap_m_Label-1445951663816-17W" required="false" text="GPA" textAlign="Begin" textDirection="Inherit"
+										width="auto"/>
+									<m:TextArea cols="20" height="38px" id="np-sap_m_TextArea-1445952400912-188" maxLength="0" rows="1" wrapping="None"/>
+								</m:items>
+								<m:layoutData/>
+							</m:HBox>
+							<m:HBox alignItems="Center" direction="Row" displayInline="false" fitContainer="false" height="48px" id="np-sap_m_HBox-1445951648533-17K"
+								justifyContent="Start" renderType="Div" visible="true">
+								<m:items>
+									<m:Label design="Bold" id="np-sap_m_Label-1445951964924-180" required="false" text="GPA:" textAlign="Begin" textDirection="Inherit"
+										width="auto"/>
+									<m:Label design="Standard" id="np-sap_m_Label-1445951968902-182" required="false" text="3.0/4.0" textAlign="Begin" textDirection="Inherit"
+										width="auto"/>
+								</m:items>
+								<m:layoutData/>
+							</m:HBox>
+						</m:items>
+						<m:layoutData/>
+					</m:HBox>
+					<m:HBox alignItems="Center" direction="Row" displayInline="false" fitContainer="false" height="48px" id="np-sap_m_HBox-1445952504674-18A"
+						justifyContent="Start" renderType="Div" visible="true">
+						<m:items>
+							<m:HBox alignItems="Center" direction="Row" displayInline="false" fitContainer="false" height="48px" id="np-sap_m_HBox-1445952539710-19U"
+								justifyContent="Start" renderType="Div" visible="true">
+								<m:items>
+									<m:Label design="Bold" id="np-sap_m_Label-1445952568125-1AI" required="false" text="Year:" textAlign="Begin" textDirection="Inherit"
+										width="auto"/>
+									<m:TextArea cols="20" height="38px" id="np-sap_m_TextArea-1445952635407-1AK" maxLength="0" rows="1" wrapping="None"/>
+								</m:items>
+								<m:layoutData/>
+							</m:HBox>
+							<m:HBox alignItems="Center" direction="Row" displayInline="false" fitContainer="false" height="48px" id="np-sap_m_HBox-1445952541426-1A6"
+								justifyContent="Start" renderType="Div" visible="true">
+								<m:items>
+									<m:Label design="Bold" id="np-sap_m_Label-1445952759827-1AM" required="false" text="Year:" textAlign="Begin" textDirection="Inherit"
+										width="auto"/>
+									<m:Label design="Standard" id="np-sap_m_Label-1445952761408-1AO" required="false" text="7 th" textAlign="Begin" textDirection="Inherit"
+										width="auto"/>
+								</m:items>
+								<m:layoutData/>
+							</m:HBox>
+						</m:items>
+						<m:layoutData/>
+					</m:HBox>
+				</m:items>
+				<m:layoutData/>
+			</m:VBox>
+			<m:Label design="Standard" id="sap_m_Label_6" required="false" text="19 Male" textAlign="Begin" textDirection="Inherit" width="auto"/>
+			<uxap:ObjectPageHeader headerDesign="Light" id="sap_uxap_ObjectPageHeader_1" isActionAreaAlwaysVisible="true"
+				isObjectIconAlwaysVisible="false" isObjectSubtitleAlwaysVisible="false" isObjectTitleAlwaysVisible="false" objectImageShape="Circle"
+				objectImageURI="/public/resources/norman-ui-catalog-manager-client/assets/image-canvas.svg" objectSubtitle="" objectTitle="Thomas">
+				<uxap:actions>
+					<core:Icon decorative="true" height="16px" id="np-sap_ui_core_Icon-1445949720078-11S" size="16px" src="sap-icon://notes" visible="true"
+						width="16px"/>
+				</uxap:actions>
+				<uxap:breadCrumbsLinks/>
+				<uxap:navigationBar/>
+			</uxap:ObjectPageHeader>
+		</uxap:headerContent>
+		<uxap:sections/>
+	</uxap:ObjectPageLayout>
+</mvc:View>

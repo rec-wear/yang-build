@@ -1,0 +1,71 @@
+<mvc:View controllerName="generated.app.view.1445915820018_S0" xmlns:core="sap.ui.core" xmlns:form="sap.ui.layout.form" xmlns:m="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<m:Page enableScrolling="true" id="sap_List_Page_0" showFooter="true" showHeader="true" showNavButton="false" showSubHeader="true"
+		title="Filter" titleLevel="Auto">
+		<m:content>
+			<form:SimpleForm breakpointL="1024" breakpointM="600" columnsL="2" columnsM="1" editable="false" emptySpanL="0" emptySpanM="0"
+				emptySpanS="0" id="np-sap_ui_layout_form_SimpleForm-1445920406438-0CW" labelMinWidth="192" labelSpanL="4" labelSpanM="2" labelSpanS="12"
+				layout="ResponsiveGridLayout" maxContainerCols="2" minWidth="-1" visible="true">
+				<form:title/>
+				<form:content>
+					<m:Label design="Standard" id="np-sap_m_Label-1445920406444-0CY" required="false" text="Date of Birth" textAlign="Begin"
+						textDirection="Inherit" width="auto"/>
+					<m:DateTimeInput enabled="true" id="np-sap_m_DateTimeInput-1445921322863-0NR" placeholder="Enter a date or date and time..." type="Date"
+						visible="true" width="250px"/>
+					<m:Label design="Standard" id="np-sap_m_Label-1445921345674-0NT" required="false" text="Gender" textAlign="Begin" textDirection="Inherit"
+						width="auto"/>
+					<m:ComboBox editable="true" enabled="true" id="np-sap_m_ComboBox-1445921387509-0NV" maxWidth="100%" selectedItemId="" selectedKey=""
+						showValueStateMessage="true" valueState="None" visible="true" width="192px">
+						<m:items>
+							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921387510-0NW" text="Female" textDirection="Inherit"/>
+							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921387510-0NX" text="Male" textDirection="Inherit"/>
+							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921387510-0NY" text="All" textDirection="Inherit"/>
+						</m:items>
+					</m:ComboBox>
+					<m:Label design="Standard" id="np-sap_m_Label-1445921403007-0O4" required="false" text="Athlete role" textAlign="Begin"
+						textDirection="Inherit" width="auto"/>
+					<m:ComboBox editable="true" enabled="true" id="np-sap_m_ComboBox-1445921421004-0O6" maxWidth="100%" selectedItemId="" selectedKey=""
+						showValueStateMessage="true" valueState="None" visible="true" width="192px">
+						<m:items>
+							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921421005-0O7" text="Item 1" textDirection="Inherit"/>
+							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921421005-0O8" text="Item 2" textDirection="Inherit"/>
+							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921421005-0O9" text="Item 3" textDirection="Inherit"/>
+						</m:items>
+					</m:ComboBox>
+					<m:Label design="Standard" id="np-sap_m_Label-1445921427397-0OF" required="false" text="GPA" textAlign="Begin" textDirection="Inherit"
+						width="auto"/>
+					<m:Input dateFormat="YYYY-MM-dd" fieldWidth="50%" filterSuggests="true" id="np-sap_m_Input-1445921439699-0OH" maxLength="0"
+						showSuggestion="false" showTableSuggestionValueHelp="true" showValueHelp="false" startSuggestion="1" type="Text" valueHelpOnly="false"
+						valueLiveUpdate="false" width="200px">
+						<m:suggestionColumns/>
+						<m:suggestionItems/>
+						<m:suggestionRows/>
+					</m:Input>
+					<m:Label design="Standard" id="np-sap_m_Label-1445921446783-0OJ" required="false" text="Distance from" textAlign="Begin"
+						textDirection="Inherit" width="auto"/>
+					<m:Input dateFormat="YYYY-MM-dd" fieldWidth="50%" filterSuggests="true" id="np-sap_m_Input-1445921473507-0OL" maxLength="0"
+						showSuggestion="false" showTableSuggestionValueHelp="true" showValueHelp="false" startSuggestion="1" type="Text" valueHelpOnly="false"
+						valueLiveUpdate="false" width="200px">
+						<m:suggestionColumns/>
+						<m:suggestionItems/>
+						<m:suggestionRows/>
+					</m:Input>
+					<m:Label design="Standard" id="np-sap_m_Label-1445921501146-0ON" required="false" text="Athlete belongs to club" textAlign="Begin"
+						textDirection="Inherit" width="auto"/>
+					<m:ComboBox editable="true" enabled="true" id="np-sap_m_ComboBox-1445921578567-0OP" maxWidth="100%" selectedItemId="" selectedKey=""
+						showValueStateMessage="true" valueState="None" visible="true" width="192px">
+						<m:items>
+							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921578567-0OQ" text="Item 1" textDirection="Inherit"/>
+							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921578567-0OR" text="Item 2" textDirection="Inherit"/>
+							<core:Item enabled="true" id="np-sap_ui_core_Item-1445921578567-0OS" text="Item 3" textDirection="Inherit"/>
+						</m:items>
+					</m:ComboBox>
+				</form:content>
+			</form:SimpleForm>
+		</m:content>
+		<m:footer/>
+		<m:headerContent/>
+		<m:subHeader/>
+		<m:customHeader/>
+	</m:Page>
+</mvc:View>

@@ -1,0 +1,129 @@
+<mvc:View controllerName="generated.app.view.1445917138693_S4" xmlns:layout="sap.ui.layout" xmlns:m="sap.m" xmlns:mvc="sap.ui.core.mvc">
+	<m:Page enableScrolling="true" id="sap_IconTabBar_Page_0" showFooter="true" showHeader="true" showNavButton="false" showSubHeader="true"
+		title="Detail Page" titleLevel="Auto">
+		<m:content>
+			<layout:VerticalLayout id="sap_ui_layout_VerticalLayout_1" visible="true" width="100%">
+				<layout:content>
+					<m:ObjectListItem icon="sap-icon://iphone" id="sap_m_ObjectListItem_2" intro="Intro." number="1,000" numberState="Success" numberUnit="USD"
+						selected="false" showMarkers="false" title="Title" type="Active" unread="false">
+						<m:attributes>
+							<m:ObjectAttribute id="sap_m_ObjectAttribute_3" text="Attribute 1"/>
+							<m:ObjectAttribute id="sap_m_ObjectAttribute_4" text="Attribute 2"/>
+						</m:attributes>
+						<m:firstStatus>
+							<m:ObjectStatus iconDensityAware="true" id="sap_m_ObjectStatus_5" state="None" text="Status 1"/>
+						</m:firstStatus>
+						<m:secondStatus>
+							<m:ObjectStatus iconDensityAware="true" id="sap_m_ObjectStatus_6" state="None" text="Status 2"/>
+						</m:secondStatus>
+					</m:ObjectListItem>
+				</layout:content>
+			</layout:VerticalLayout>
+			<m:IconTabBar applyContentPadding="false" backgroundDesign="Solid" expandable="true" expanded="true" id="sap_m_IconTabBar_7"
+				stretchContentHeight="false" upperCase="false" visible="true">
+				<m:content>
+					<m:Text id="sap_m_Text_8" maxLines="1" text="Tab Bar Content goes here ..." textAlign="Begin" textDirection="Inherit" width="300px"
+						wrapping="true"/>
+				</m:content>
+				<m:items>
+					<m:IconTabFilter count="" design="Vertical" enabled="true" icon="sap-icon://hint" iconColor="Positive" iconDensityAware="false"
+						id="sap_m_IconTabFilter_Ok_9" showAll="false" text="Ok" textDirection="Inherit" visible="true">
+						<m:content>
+							<m:Table backgroundDesign="Translucent" fixedLayout="true" growing="false" growingScrollToLoad="false" growingThreshold="20"
+								id="sap_m_Table_10" includeItemInSelection="false" inset="false" mode="None" modeAnimationOn="true" noDataText="No data"
+								rememberSelections="true" showNoData="true" showOverlay="false" showSeparators="All" showUnread="false" swipeDirection="Both" visible="true"
+								width="100%">
+								<m:swipeContent/>
+								<m:items>
+									<m:ColumnListItem id="sap_m_ColumnListItem_11" type="Active">
+										<m:cells>
+											<m:ObjectIdentifier id="sap_m_ObjectIdentifier_12" text="Product ID" title="Product Name" titleActive="false" visible="true"/>
+											<m:Text id="sap_m_Text_13" maxLines="1" text="Supplier Name" textAlign="Begin" textDirection="Inherit" width="auto" wrapping="true"/>
+											<m:ObjectNumber id="sap_m_ObjectNumber_14" number="150.00" state="None" unit="USD"/>
+										</m:cells>
+									</m:ColumnListItem>
+									<m:ColumnListItem id="sap_m_ColumnListItem_15" type="Active">
+										<m:cells>
+											<m:ObjectIdentifier id="sap_m_ObjectIdentifier_16" text="Product ID" title="Product Name" titleActive="false" visible="true"/>
+											<m:Text id="sap_m_Text_17" maxLines="1" text="Supplier Name" textAlign="Begin" textDirection="Inherit" width="auto" wrapping="true"/>
+											<m:ObjectNumber id="sap_m_ObjectNumber_18" number="150.00" state="None" unit="USD"/>
+										</m:cells>
+									</m:ColumnListItem>
+									<m:ColumnListItem id="sap_m_ColumnListItem_19" type="Active">
+										<m:cells>
+											<m:ObjectIdentifier id="sap_m_ObjectIdentifier_20" text="Product ID" title="Product Name" titleActive="false" visible="true"/>
+											<m:Text id="sap_m_Text_21" maxLines="1" text="Supplier Name" textAlign="Begin" textDirection="Inherit" width="auto" wrapping="true"/>
+											<m:ObjectNumber id="sap_m_ObjectNumber_22" number="150.00" state="None" unit="USD"/>
+										</m:cells>
+									</m:ColumnListItem>
+								</m:items>
+								<m:infoToolbar/>
+								<m:headerToolbar>
+									<m:Toolbar design="Solid" enabled="true" height="46px" id="sap_m_Toolbar_3_23" visible="true" width="auto">
+										<m:tooltip/>
+										<m:content>
+											<m:ToolbarSpacer id="sap_m_ToolbarSpacer_24" visible="true" width=""/>
+											<m:Text id="sap_m_Text_25" maxLines="1" text="Header Text" textAlign="Begin" textDirection="Inherit" width="auto" wrapping="true"/>
+											<m:ToolbarSpacer id="sap_m_ToolbarSpacer_26" visible="true" width=""/>
+										</m:content>
+									</m:Toolbar>
+								</m:headerToolbar>
+								<m:columns>
+									<m:Column demandPopin="true" hAlign="Begin" id="sap_m_Column_Product_27" mergeDuplicates="false" mergeFunctionName="getText"
+										minScreenWidth="Tablet" popinDisplay="Block" vAlign="Inherit" width="auto">
+										<m:header>
+											<m:Text id="sap_m_Text_28" maxLines="1" text="Product" textAlign="Begin" textDirection="Inherit" width="auto" wrapping="true"/>
+										</m:header>
+										<m:footer/>
+									</m:Column>
+									<m:Column demandPopin="true" hAlign="Begin" id="sap_m_Column_Supplier_29" mergeDuplicates="false" mergeFunctionName="getText"
+										minScreenWidth="Tablet" popinDisplay="Block" vAlign="Inherit" width="auto">
+										<m:header>
+											<m:Text id="sap_m_Text_30" maxLines="1" text="Supplier" textAlign="Begin" textDirection="Inherit" width="auto" wrapping="true"/>
+										</m:header>
+										<m:footer/>
+									</m:Column>
+									<m:Column demandPopin="true" hAlign="Begin" id="sap_m_Column_Price_31" mergeDuplicates="false" mergeFunctionName="getText"
+										minScreenWidth="Tablet" popinDisplay="Block" vAlign="Inherit" width="auto">
+										<m:header>
+											<m:Text id="sap_m_Text_32" maxLines="1" text="Price" textAlign="Begin" textDirection="Inherit" width="auto" wrapping="true"/>
+										</m:header>
+										<m:footer/>
+									</m:Column>
+								</m:columns>
+							</m:Table>
+						</m:content>
+					</m:IconTabFilter>
+					<m:IconTabSeparator icon="" iconDensityAware="false" id="sap_m_IconTabSeparator_33"/>
+					<m:IconTabFilter count="3" design="Vertical" enabled="true" icon="sap-icon://attachment" iconColor="Neutral" iconDensityAware="false"
+						id="sap_m_IconTabFilter_Attachments_34" showAll="false" text="" textDirection="Inherit" visible="true">
+						<m:content>
+							<m:Text id="sap_m_Text_35" maxLines="1" text="Attachments go here ..." textAlign="Begin" textDirection="Inherit" width="300px"
+								wrapping="true"/>
+						</m:content>
+					</m:IconTabFilter>
+					<m:IconTabSeparator icon="" iconDensityAware="false" id="sap_m_IconTabSeparator_36"/>
+					<m:IconTabFilter count="2" design="Vertical" enabled="true" icon="sap-icon://notes" iconColor="Negative" iconDensityAware="false"
+						id="sap_m_IconTabFilter_Notes_37" showAll="false" text="" textDirection="Inherit" visible="true">
+						<m:content>
+							<m:Text id="sap_m_Text_38" maxLines="1" text="Notes go here ..." textAlign="Begin" textDirection="Inherit" width="300px" wrapping="true"/>
+						</m:content>
+					</m:IconTabFilter>
+				</m:items>
+			</m:IconTabBar>
+		</m:content>
+		<m:footer>
+			<m:Toolbar design="Solid" enabled="true" height="35px" id="sap_m_Toolbar_39" visible="true" width="auto">
+				<m:tooltip/>
+				<m:content>
+					<m:ToolbarSpacer id="sap_m_ToolbarSpacer_40" visible="true" width=""/>
+					<m:Button enabled="true" iconDensityAware="false" iconFirst="false" id="sap_m_Button_41" text="Accept" type="Accept" width="auto"/>
+					<m:Button enabled="true" iconDensityAware="false" iconFirst="false" id="sap_m_Button_42" text="Reject" type="Reject" width="auto"/>
+				</m:content>
+			</m:Toolbar>
+		</m:footer>
+		<m:headerContent/>
+		<m:subHeader/>
+		<m:customHeader/>
+	</m:Page>
+</mvc:View>

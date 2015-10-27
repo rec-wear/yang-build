@@ -1,0 +1,27 @@
+{
+  "run": [
+    {
+      "filePath": "/recwear/index.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "backendSystem": [
+        {
+          "source": "sapui5-private",
+          "destinations": "sapui5-private"
+        }
+      ],
+      "destBackendSystem": [],
+      "_metadata": {
+        "runnerId": "webapprunner",
+        "id": 6594959,
+        "displayName": "New Web Application 2"
+      }
+    }
+  ]
+}

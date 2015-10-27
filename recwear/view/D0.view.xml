@@ -1,0 +1,11 @@
+<mvc:View controllerName="generated.app.view.D0" xmlns:m="sap.m" xmlns:mvc="sap.ui.core.mvc">
+	<m:Dialog horizontalScrolling="true" id="sap_m_Dialog_0" showHeader="true" state="None" stretch="false" type="Standard"
+		verticalScrolling="true">
+		<m:beginButton/>
+		<m:buttons/>
+		<m:content/>
+		<m:customHeader/>
+		<m:endButton/>
+		<m:subHeader/>
+	</m:Dialog>
+</mvc:View>
